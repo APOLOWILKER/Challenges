@@ -13,6 +13,9 @@ public class Teste {
 
         System.out.println("Tamanho da lista: " + listaProdutos.size());
         System.out.println("Produto na posição 0: " + listaProdutos.get(0).getNome());
+        for (Produto produto : listaProdutos) {
+            System.out.println(produto);
+        }
 
     }
 }
