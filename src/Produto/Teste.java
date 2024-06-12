@@ -17,5 +17,10 @@ public class Teste {
             System.out.println(produto);
         }
 
+        ProdutoPerecivel produtoPerecivel = new ProdutoPerecivel("Maçã", 2, 30, "20 dias");
+        System.out.println(produtoPerecivel);
+
+
+
     }
 }
